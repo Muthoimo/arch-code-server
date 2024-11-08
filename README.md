@@ -16,7 +16,7 @@
 
 This project can be found on GitHub at:
 
-[https://github.com/Muthoimo/arch-coder](https://github.com/Muthoimo/arch-coder)
+[https://github.com/Muthoimo/arch-code-server](https://github.com/Muthoimo/arch-code-server)
 
 ## Prerequisites
 
