@@ -1,0 +1,25 @@
+---
+
+services:
+  code-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: arch-vscode
+    environment:
+      - DOCKER_USER=coder
+      - LANG=en_US.UTF-8 
+    volumes:
+      - ~/.config/coder:/home/coder/.docs/coder
+    ports:
+      - "8080:8080"  # Expose VS Code on port 8080
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    networks:
+      - code-server-network
+
+networks:
+  code-server-network:
+    driver: bridge
+
