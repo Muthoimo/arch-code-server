@@ -3,7 +3,7 @@
 
 # Arch Coder: Arch Linux with VS Code in the Browser
 
-`arch-coder` is a Docker-based project that sets up an Arch Linux container with the following features:
+`arch-code-server` is a Docker-based project that sets up an Arch Linux container with the following features:
 
 - **VS Code (code-server)** running in the browser.
 - **Go** installed.
@@ -30,7 +30,7 @@ Before you begin, make sure you have the following installed on your machine:
 After cloning the repository, the project directory will look like this:
 
 ```
-/arch-coder
+/arch-code-server
     ├── docker-compose.yml
     ├── Dockerfile
     ├── entrypoint.sh
@@ -44,8 +44,8 @@ After cloning the repository, the project directory will look like this:
 First, clone the repository from GitHub to your local machine:
 
 ```bash
-git clone https://github.com/Muthoimo/arch-coder.git
-cd arch-coder
+git clone https://github.com/Muthoimo/arch-code-server.git
+cd arch-code-server
 ```
 
 ### 2. Build the Docker Image
